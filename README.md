@@ -11,3 +11,13 @@ after finishing all of that, change the autoupate.bat in “C:\Program Files\RDP
 
 and run with administration, you will get it auto-updated 
 
+# modify the proxy configuration 
+you need to modify the configuration to make it fit for your proxy
+
+in line：348
+
+```
+        Dim proxyServer, proxyPort
+        proxyServer = "127.0.0.1"
+        proxyPort = 7890
+```
